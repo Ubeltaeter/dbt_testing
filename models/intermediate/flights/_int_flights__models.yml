@@ -1,0 +1,9 @@
+models:
+  - name: fct_bookings
+    description: Факты бронирования
+    docs:
+      show: true
+      node_color: red
+    latest_version: 1
+    versions:
+      - v: 1

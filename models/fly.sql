@@ -1,0 +1,1 @@
+select * from demo_src.ticket_flights

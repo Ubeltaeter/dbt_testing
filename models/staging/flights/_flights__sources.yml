@@ -3,6 +3,31 @@ sources:
     database: dwh_flights
     schema: demo_src
     tables: 
+      - name: flights
+        columns:
+          - name: flight_id
+          - name: flight_no
+          - name: scheduled_departure
+          - name: scheduled_arrival
+          - name: departure_airport
+          - name: arrival_airport
+          - name: status
+          - name: aircraft_code
+          - name: actual_departure
+          - name: actual_arrival
+      - name: tickets
+        columns:
+          - name: ticket_no
+          - name: book_ref
+          - name: passenger_id
+          - name: passenger_name
+          - name: contact_data
+      - name: ticket_flights
+        columns:
+          - name: ticket_no
+          - name: flight_id
+          - name: fare_conditions
+          - name: amount
       - name: aircrafts
       - name: airports
       - name: seats
